@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3426" started-at="2017-11-01T16:37:53Z" finished-at="2017-11-01T16:37:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3426" started-at="2017-11-01T16:37:53Z" finished-at="2017-11-01T16:37:56Z">
+      <class name="APITesting.com.org.api.JsonServerRequests">
+        <test-method status="PASS" signature="test7()[pri:0, instance:APITesting.com.org.api.JsonServerRequests@735b5592]" name="test7" duration-ms="3362" started-at="2017-11-01T11:37:53Z" finished-at="2017-11-01T11:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- APITesting.com.org.api.JsonServerRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
