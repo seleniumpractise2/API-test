@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3426" started-at="2017-11-01T16:37:53Z" finished-at="2017-11-01T16:37:56Z">
+  <suite name="Default suite" duration-ms="17315" started-at="2017-11-03T19:47:49Z" finished-at="2017-11-03T19:48:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3426" started-at="2017-11-01T16:37:53Z" finished-at="2017-11-01T16:37:56Z">
-      <class name="APITesting.com.org.api.JsonServerRequests">
-        <test-method status="PASS" signature="test7()[pri:0, instance:APITesting.com.org.api.JsonServerRequests@735b5592]" name="test7" duration-ms="3362" started-at="2017-11-01T11:37:53Z" finished-at="2017-11-01T11:37:56Z">
+    <test name="Default test" duration-ms="17315" started-at="2017-11-03T19:47:49Z" finished-at="2017-11-03T19:48:07Z">
+      <class name="APITesting.com.org.api.WeatherGetRequest">
+        <test-method status="PASS" signature="convertAPI()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="convertAPI" duration-ms="16105" started-at="2017-11-03T14:47:49Z" finished-at="2017-11-03T14:48:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test7 -->
-      </class> <!-- APITesting.com.org.api.JsonServerRequests -->
+        </test-method> <!-- convertAPI -->
+        <test-method status="PASS" signature="getreq()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="getreq" duration-ms="211" started-at="2017-11-03T14:48:06Z" finished-at="2017-11-03T14:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreq -->
+        <test-method status="PASS" signature="getreqassert()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="getreqassert" duration-ms="365" started-at="2017-11-03T14:48:06Z" finished-at="2017-11-03T14:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreqassert -->
+        <test-method status="PASS" signature="getreqcityid()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="getreqcityid" duration-ms="151" started-at="2017-11-03T14:48:06Z" finished-at="2017-11-03T14:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreqcityid -->
+        <test-method status="PASS" signature="getreqparam()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="getreqparam" duration-ms="113" started-at="2017-11-03T14:48:06Z" finished-at="2017-11-03T14:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreqparam -->
+        <test-method status="PASS" signature="getreqresp()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="getreqresp" duration-ms="127" started-at="2017-11-03T14:48:06Z" finished-at="2017-11-03T14:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreqresp -->
+        <test-method status="PASS" signature="printweather()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@735b5592]" name="printweather" duration-ms="149" started-at="2017-11-03T14:48:07Z" finished-at="2017-11-03T14:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printweather -->
+      </class> <!-- APITesting.com.org.api.WeatherGetRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
