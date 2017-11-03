@@ -139,8 +139,7 @@ public class WeatherGetRequest {
 		
 		
 		Assert.assertEquals(respbyID, reportbydesc);
-		
-		
+				
 
 	}
 

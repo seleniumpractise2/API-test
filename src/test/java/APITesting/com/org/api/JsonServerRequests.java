@@ -2,10 +2,7 @@ package APITesting.com.org.api;
 
 import org.testng.annotations.Test;
 
-import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
-
-import APITesting.com.org.classes.PostRequest;
 
 import static com.jayway.restassured.RestAssured.*;
 
