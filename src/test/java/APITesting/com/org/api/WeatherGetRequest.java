@@ -11,7 +11,7 @@ import static com.jayway.restassured.RestAssured.*;
 public class WeatherGetRequest {
 
 	//get request for weather by city name
-	/*	@Test
+	@Test
 	public void getreq()
 	{
 		Response resp = when().
@@ -88,7 +88,7 @@ public class WeatherGetRequest {
 				contentType(ContentType.JSON).extract().path("weather[0].description");
 
 		System.out.println("Weather Desc :" + str);
-	}*/
+	}
 
 	@Test
 	public void convertAPI()
