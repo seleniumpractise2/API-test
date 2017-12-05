@@ -15,6 +15,14 @@
 	</properties>
 
 	<build>
+
+		<resources>
+			<resource>
+				<directory>src/main/java/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+
 		<plugins>
 			<!-- Following plugin executes testng tests -->
 			<plugin>
@@ -51,23 +59,57 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.jayway.restassured</groupId>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.9.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>2.9.0</version>
+			<version>3.0.5</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>com.jayway.restassured</groupId>
+			<groupId>io.rest-assured</groupId>
 			<artifactId>json-path</artifactId>
-			<version>2.9.0</version>
+			<version>3.0.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>xml-path</artifactId>
+			<version>3.0.5</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.jayway.restassured</groupId>
-			<artifactId>json-schema-validator</artifactId>
-			<version>2.9.0</version>
+			<artifactId>dist-spring-mock-mvc</artifactId>
+			<version>2.2.0</version>
+			<type>pom</type>
 		</dependency>
+
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>scala-support</artifactId>
+			<version>3.0.5</version>
+			<scope>test</scope>
+		</dependency>
+
+
 
 
 	</dependencies>
